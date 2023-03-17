@@ -77,11 +77,7 @@ export default function Navbar(): JSX.Element {
           <a href="#services" className="dropdown services">
             Services
           </a>
-          <ul
-            id="services"
-            aria-expanded={serviceExpand}
-            aria-hidden={serviceExpand}
-          >
+          <ul id="services" aria-expanded={serviceExpand}>
             <li>
               <a className="services" href="#service-one">
                 Service 1
@@ -98,7 +94,7 @@ export default function Navbar(): JSX.Element {
           <a href="#about" className="dropdown about">
             About
           </a>
-          <ul aria-expanded={aboutExpand} aria-hidden={aboutExpand}>
+          <ul aria-expanded={aboutExpand}>
             <li>
               <a className="about" href="#history">
                 History
